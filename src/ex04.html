@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4 - Comprendre reduce()</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+        }
+
+        button {
+            margin: 0.2em;
+            padding: 0.5em 0.5em;
+            font-size: 1em;
+        }
+
+        #output {
+            margin-top: 2em;
+            padding: 1em;
+            font-family: 'Consolas', 'Courier New', Courier, monospace;
+            font-size: 1em;
+            font-weight: normal;
+            border: 1px solid #ccc;
+            min-height: 2em;
+            background: #fafafa;
+            color: darkgreen;
+        }
+
+        code {
+            color: darkred;
+        }
+    </style>
+    <script src="ex04-data-villes.js"></script>
+    <script src="ex04-data-motos.js"></script>
+    <script src="ex04-data-evaluations.js"></script>
+    <script src="ex04.js"></script>
+</head>
+
+<body>
+    <h1>Exercice 4 - Comprendre <code>reduce()</code></h1>
+    <p>
+        <button id="idActionR1">R1 - La moyenne de toutes les évaluations</button>
+        <button id="idActionR2">R2 - Pour chaque marque de moto, la plus puissante</button>
+        <button id="idActionR3">R3 - Le total de tous les habitants</button>
+        <button id="idActionR4">R4 - Le total des habitants de chaque canton</button>
+        <button id="idActionR5">R5 - La liste des cantons, sans doublons</button>
+    </p>
+
+    <pre id="output"></pre>
+</body>
+
+</html>
